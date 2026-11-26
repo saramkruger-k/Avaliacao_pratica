@@ -9,3 +9,7 @@ Página web temática sobre a equipe de robótica **SUNRISE #28782** do FIRST Te
 - `js/script.js` — Script de validação, cálculo e tratamento de exceções do simulador (a ser implementado na Etapa 4).
 - `img/` — Diretório reservado para as fotografias da equipe (a ser preenchido na Etapa 2).
 - `README.md` — Documentação inicial do projeto.
+
+## Origem das imagens
+
+As fotografias armazenadas em `img/` (`sunrise-01.jpg` a `sunrise-12.jpg` e `sunrise-13.png`) foram fornecidas pela própria equipe **SUNRISE #28782 (SESI SENAI SC)** via Google Drive.
