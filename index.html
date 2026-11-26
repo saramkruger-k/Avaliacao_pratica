@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Página oficial da equipe SUNRISE #28782 de FIRST Tech Challenge (FTC) do SESI SENAI SC em Joinville, com história, conquistas, galeria e simulador de pontuação.">
+  <title>SUNRISE #28782 — Equipe de FTC SESI SENAI SC</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>SUNRISE #28782</h1>
+    <p>Equipe de FIRST Tech Challenge (FTC) • SESI SENAI SC — Joinville, SC</p>
+    <nav aria-label="Navegação principal">
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#conquistas">Conquistas</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#simulador">Simulador</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="sobre" aria-labelledby="titulo-sobre">
+      <h2 id="titulo-sobre">Sobre a equipe</h2>
+      <p>A SUNRISE #28782 é uma equipe de robótica da modalidade FIRST Tech Challenge (FTC), vinculada ao SESI SENAI SC em Joinville, Santa Catarina, que estreou nas competições em 2024.</p>
+      <p>Formada por estudantes dedicados à engenharia, construção e programação de robôs, a equipe atua em partidas em aliança e promove os valores FIRST de cooperação, inovação e Gracious Professionalism.</p>
+    </section>
+
+    <section id="conquistas" aria-labelledby="titulo-conquistas">
+      <h2 id="titulo-conquistas">Temporadas e conquistas</h2>
+      <ul>
+        <li><strong>2025 — DECODE:</strong>estreia da equipe e conquista do 2º lugar no Inspire Award na Seletiva Catarinense, garantindo vaga para etapas nacionais.</li>
+        <li><strong>Torneios regionais e amistosos:</strong> participação no Off-Season Das Araucárias e no Sinos Valley Challenge.</li>
+        <li><strong>2026 — BIOBUZZ:</strong> continuidade do projeto com foco em evolução técnica e impacto na comunidade.</li>
+      </ul>
+    </section>
+
+    <section id="galeria" aria-labelledby="titulo-galeria">
+      <h2 id="titulo-galeria">Galeria da equipe</h2>
+      <p>Registros do robô, dos testes em arena e da participação da equipe nas competições.</p>
+      <div class="galeria-grid"><!-- As fotos em img/ serão adicionadas na Etapa 2 --></div>
+    </section>
+
+    <section id="simulador" aria-labelledby="titulo-simulador">
+      <h2 id="titulo-simulador">Simulador de pontuação FTC</h2>
+      <p>Calcule o desempenho da partida somando os pontos dos períodos Autônomo, Teleoperado e Endgame para obter a pontuação total e a classificação da partida.</p>
+      <form id="form-pontuacao" novalidate>
+        <div>
+          <label for="nome-partida">Nome da partida</label>
+          <input id="nome-partida" type="text" name="nomePartida" required placeholder="Ex.: Qualificatória 01">
+        </div>
+        <div>
+          <label for="pontos-autonomo">Pontos no Autônomo (0 a 100)</label>
+          <input id="pontos-autonomo" type="number" name="pontosAutonomo" min="0" max="100" step="1" inputmode="numeric" required>
+        </div>
+        <div>
+          <label for="pontos-teleop">Pontos no Teleoperado (0 a 250)</label>
+          <input id="pontos-teleop" type="number" name="pontosTeleop" min="0" max="250" step="1" inputmode="numeric" required>
+        </div>
+        <div>
+          <label for="pontos-endgame">Pontos no Endgame (0 a 100)</label>
+          <input id="pontos-endgame" type="number" name="pontosEndgame" min="0" max="100" step="1" inputmode="numeric" required>
+        </div>
+        <button type="submit">Calcular pontuação</button>
+        <div id="feedback-formulario" class="feedback" role="status" aria-live="polite"></div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>SUNRISE #28782 — SESI SENAI SC, Joinville. Instagram: <a href="https://www.instagram.com/sunrise_ftc/" target="_blank" rel="noopener noreferrer">@sunrise_ftc</a>.</p>
+    <p>Sara Machado Kruger - Trabalho Final</p>
+  </footer>
+</body>
+</html>
