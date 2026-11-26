@@ -23,14 +23,14 @@
   </header>
 
   <main>
-    <section id="sobre" aria-labelledby="titulo-sobre">
-      <h2 id="titulo-sobre">Sobre a equipe</h2>
+    <section id="sobre">
+      <h2>Sobre a equipe</h2>
       <p>A SUNRISE #28782 é uma equipe de robótica da modalidade FIRST Tech Challenge (FTC), vinculada ao SESI SENAI SC em Joinville, Santa Catarina, que estreou nas competições em 2024.</p>
       <p>Formada por estudantes dedicados à engenharia, construção e programação de robôs, a equipe atua em partidas em aliança e promove os valores FIRST de cooperação, inovação e Gracious Professionalism.</p>
     </section>
 
-    <section id="conquistas" aria-labelledby="titulo-conquistas">
-      <h2 id="titulo-conquistas">Temporadas e conquistas</h2>
+    <section id="conquistas">
+      <h2>Temporadas e conquistas</h2>
       <ul>
         <li><strong>2025 — DECODE:</strong>estreia da equipe e conquista do 2º lugar no Inspire Award na Seletiva Catarinense, garantindo vaga para etapas nacionais.</li>
         <li><strong>Torneios regionais e amistosos:</strong> participação no Off-Season Das Araucárias e no Sinos Valley Challenge.</li>
@@ -38,54 +38,30 @@
       </ul>
     </section>
 
-    <section id="galeria" aria-labelledby="titulo-galeria">
-      <h2 id="titulo-galeria">Galeria da equipe</h2>
+    <section id="galeria">
+      <h2>Galeria da equipe</h2>
       <p>Registros do robô, dos testes em arena e da participação da equipe nas competições.</p>
       <div class="galeria-grid">
         <figure>
-          <img src="img/sunrise-01.jpg" alt="Equipe SUNRISE #28782: duas integrantes de uniforme laranja e óculos de proteção conversando com competidor no estande da equipe" loading="lazy">
+          <img src="img/sunrise-02.jpg" alt="Equipe SUNRISE #28782: integrante de uniforme laranja e óculos de proteção observando o robô na arena de competição">
         </figure>
         <figure>
-          <img src="img/sunrise-02.jpg" alt="Equipe SUNRISE #28782: integrante de uniforme laranja e óculos de proteção observando o robô na arena de competição" loading="lazy">
+          <img src="img/sunrise-04.jpg" alt="Equipe SUNRISE #28782: integrantes confraternizando ao ar livre com colegas de outras equipes durante o evento">
         </figure>
         <figure>
-          <img src="img/sunrise-03.jpg" alt="Equipe SUNRISE #28782: integrante com crachá do Festival Regional SESI de Robótica, bótons de equipes e óculos de segurança nos boxes" loading="lazy">
+          <img src="img/sunrise-06.jpg" alt="Equipe SUNRISE #28782: integrantes na área de competição se preparando entre partidas do Festival Regional SESI de Robótica">
         </figure>
         <figure>
-          <img src="img/sunrise-04.jpg" alt="Equipe SUNRISE #28782: integrantes confraternizando ao ar livre com colegas de outras equipes durante o evento" loading="lazy">
+          <img src="img/sunrise-10.jpg" alt="Equipe SUNRISE #28782: equipe posando sorridente no palco da cerimônia de premiação com a bandeira e o troféu">
         </figure>
         <figure>
-          <img src="img/sunrise-05.jpg" alt="Equipe SUNRISE #28782: integrante acompanhando a partida junto à borda da arena com o robô em movimento" loading="lazy">
-        </figure>
-        <figure>
-          <img src="img/sunrise-06.jpg" alt="Equipe SUNRISE #28782: integrantes na área de competição se preparando entre partidas do Festival Regional SESI de Robótica" loading="lazy">
-        </figure>
-        <figure>
-          <img src="img/sunrise-07.jpg" alt="Equipe SUNRISE #28782: dois integrantes comemorando sorridentes na arena enquanto seguram mascotes de pelúcia" loading="lazy">
-        </figure>
-        <figure>
-          <img src="img/sunrise-08.jpg" alt="Equipe SUNRISE #28782: membros reunidos no palco da premiação segurando a bandeira oficial com o logotipo da equipe" loading="lazy">
-        </figure>
-        <figure>
-          <img src="img/sunrise-09.jpg" alt="Equipe SUNRISE #28782: integrantes celebrando felizes com mascotes de pelúcia após a cerimônia de premiação" loading="lazy">
-        </figure>
-        <figure>
-          <img src="img/sunrise-10.jpg" alt="Equipe SUNRISE #28782: equipe posando sorridente no palco da cerimônia de premiação com a bandeira e o troféu" loading="lazy">
-        </figure>
-        <figure>
-          <img src="img/sunrise-11.jpg" alt="Equipe SUNRISE #28782: integrante observando atentamente a disputa dos robôs na arena durante partida de FTC" loading="lazy">
-        </figure>
-        <figure>
-          <img src="img/sunrise-12.jpg" alt="Equipe SUNRISE #28782: integrantes comemorando na arena ao lado do técnico e da torcida com os mascotes da premiação" loading="lazy">
-        </figure>
-        <figure>
-          <img src="img/sunrise-13.png" alt="Equipe SUNRISE #28782: foto oficial coletiva do Festival Regional SESI de Robótica com equipes participantes e mascotes" loading="lazy">
+          <img src="img/sunrise-13.png" alt="Equipe SUNRISE #28782: foto oficial coletiva do Festival Regional SESI de Robótica com equipes participantes e mascotes">
         </figure>
       </div>
     </section>
 
-    <section id="simulador" aria-labelledby="titulo-simulador">
-      <h2 id="titulo-simulador">Simulador de pontuação FTC</h2>
+    <section id="simulador">
+      <h2>Simulador de pontuação FTC</h2>
       <p>Calcule o desempenho da partida somando os pontos dos períodos Autônomo, Teleoperado e Endgame para obter a pontuação total e a classificação da partida.</p>
       <form id="form-pontuacao" novalidate>
         <div>
@@ -94,15 +70,15 @@
         </div>
         <div>
           <label for="pontos-autonomo">Pontos no Autônomo (0 a 100)</label>
-          <input id="pontos-autonomo" type="number" name="pontosAutonomo" min="0" max="100" step="1" inputmode="numeric" required>
+          <input id="pontos-autonomo" type="number" name="pontosAutonomo" min="0" max="100" step="1" required>
         </div>
         <div>
           <label for="pontos-teleop">Pontos no Teleoperado (0 a 250)</label>
-          <input id="pontos-teleop" type="number" name="pontosTeleop" min="0" max="250" step="1" inputmode="numeric" required>
+          <input id="pontos-teleop" type="number" name="pontosTeleop" min="0" max="250" step="1" required>
         </div>
         <div>
           <label for="pontos-endgame">Pontos no Endgame (0 a 100)</label>
-          <input id="pontos-endgame" type="number" name="pontosEndgame" min="0" max="100" step="1" inputmode="numeric" required>
+          <input id="pontos-endgame" type="number" name="pontosEndgame" min="0" max="100" step="1" required>
         </div>
         <button type="submit">Calcular pontuação</button>
         <div id="feedback-formulario" class="feedback" role="status" aria-live="polite"></div>

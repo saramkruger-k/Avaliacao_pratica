@@ -12,4 +12,4 @@ Página web temática sobre a equipe de robótica **SUNRISE #28782** do FIRST Te
 
 ## Origem das imagens
 
-As fotografias armazenadas em `img/` (`sunrise-01.jpg` a `sunrise-12.jpg` e `sunrise-13.png`) foram fornecidas pela própria equipe **SUNRISE #28782 (SESI SENAI SC)** via Google Drive.
+As fotografias armazenadas em `img/` (`sunrise-02.jpg`, `sunrise-04.jpg`, `sunrise-06.jpg`, `sunrise-10.jpg` e `sunrise-13.png`) foram fornecidas pela própria equipe **SUNRISE #28782 (SESI SENAI SC)** via Google Drive.
